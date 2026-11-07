@@ -1,6 +1,6 @@
 # RU-services routes for ru-bypass table → gre5
-# generated_at=2026-11-07T06:01:05Z
-# total=11717
+# generated_at=2026-11-07T12:01:06Z
+# total=11721
 # do NOT edit manually — overwritten on next scheduler run
 
 /ip route
@@ -409,6 +409,7 @@ add dst-address=31.56.211.204/32 gateway=gre5 routing-table=ru-bypass
 add dst-address=31.56.236.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=31.57.117.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=31.57.182.0/24 gateway=gre5 routing-table=ru-bypass
+add dst-address=31.58.238.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=31.58.255.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=31.59.37.125/32 gateway=gre5 routing-table=ru-bypass
 add dst-address=31.59.210.0/24 gateway=gre5 routing-table=ru-bypass
@@ -779,6 +780,7 @@ add dst-address=37.235.128.0/17 gateway=gre5 routing-table=ru-bypass
 add dst-address=37.252.0.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=37.252.2.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=37.252.16.0/21 gateway=gre5 routing-table=ru-bypass
+add dst-address=38.28.244.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=38.33.144.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=38.60.218.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=38.60.221.0/24 gateway=gre5 routing-table=ru-bypass
@@ -958,6 +960,7 @@ add dst-address=45.88.52.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.88.100.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.88.148.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.88.158.0/24 gateway=gre5 routing-table=ru-bypass
+add dst-address=45.88.162.61/32 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.88.208.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.88.252.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.89.16.0/22 gateway=gre5 routing-table=ru-bypass
@@ -1109,7 +1112,6 @@ add dst-address=45.135.130.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.135.134.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.135.164.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.135.166.0/23 gateway=gre5 routing-table=ru-bypass
-add dst-address=45.135.177.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.135.212.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.135.232.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.136.20.0/22 gateway=gre5 routing-table=ru-bypass
@@ -1243,7 +1245,6 @@ add dst-address=45.148.124.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.148.164.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.148.167.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.148.240.0/21 gateway=gre5 routing-table=ru-bypass
-add dst-address=45.149.27.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.149.40.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.149.129.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=45.149.135.0/24 gateway=gre5 routing-table=ru-bypass
@@ -1516,7 +1517,10 @@ add dst-address=46.149.174.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=46.149.224.0/20 gateway=gre5 routing-table=ru-bypass
 add dst-address=46.150.128.0/18 gateway=gre5 routing-table=ru-bypass
 add dst-address=46.150.224.0/20 gateway=gre5 routing-table=ru-bypass
+add dst-address=46.150.240.0/21 gateway=gre5 routing-table=ru-bypass
 add dst-address=46.150.248.0/22 gateway=gre5 routing-table=ru-bypass
+add dst-address=46.150.252.0/24 gateway=gre5 routing-table=ru-bypass
+add dst-address=46.150.254.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=46.151.0.0/20 gateway=gre5 routing-table=ru-bypass
 add dst-address=46.151.40.0/21 gateway=gre5 routing-table=ru-bypass
 add dst-address=46.151.48.0/21 gateway=gre5 routing-table=ru-bypass
@@ -2091,7 +2095,6 @@ add dst-address=79.98.136.0/21 gateway=gre5 routing-table=ru-bypass
 add dst-address=79.98.184.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=79.98.200.0/21 gateway=gre5 routing-table=ru-bypass
 add dst-address=79.98.208.0/21 gateway=gre5 routing-table=ru-bypass
-add dst-address=79.98.246.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=79.98.248.0/21 gateway=gre5 routing-table=ru-bypass
 add dst-address=79.99.16.0/21 gateway=gre5 routing-table=ru-bypass
 add dst-address=79.99.48.0/21 gateway=gre5 routing-table=ru-bypass
@@ -4320,6 +4323,7 @@ add dst-address=91.236.134.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=91.236.136.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=91.236.140.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=91.236.148.0/22 gateway=gre5 routing-table=ru-bypass
+add dst-address=91.236.154.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=91.236.164.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=91.236.171.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=91.236.176.0/22 gateway=gre5 routing-table=ru-bypass
@@ -5066,9 +5070,6 @@ add dst-address=94.187.192.0/21 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.187.200.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.188.0.0/17 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.190.0.0/17 gateway=gre5 routing-table=ru-bypass
-add dst-address=94.192.73.154/31 gateway=gre5 routing-table=ru-bypass
-add dst-address=94.192.75.154/31 gateway=gre5 routing-table=ru-bypass
-add dst-address=94.192.77.154/31 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.198.0.0/21 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.198.16.0/21 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.198.32.0/21 gateway=gre5 routing-table=ru-bypass
@@ -5106,6 +5107,7 @@ add dst-address=94.232.0.0/20 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.232.16.0/21 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.232.31.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.232.40.166/32 gateway=gre5 routing-table=ru-bypass
+add dst-address=94.232.43.28/32 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.232.48.0/20 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.232.64.0/21 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.232.88.0/21 gateway=gre5 routing-table=ru-bypass
@@ -6034,6 +6036,7 @@ add dst-address=128.140.192.0/21 gateway=gre5 routing-table=ru-bypass
 add dst-address=128.204.0.0/17 gateway=gre5 routing-table=ru-bypass
 add dst-address=128.204.160.0/19 gateway=gre5 routing-table=ru-bypass
 add dst-address=129.101.64.0/19 gateway=gre5 routing-table=ru-bypass
+add dst-address=129.101.98.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=129.101.101.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=129.101.112.0/21 gateway=gre5 routing-table=ru-bypass
 add dst-address=130.0.216.0/21 gateway=gre5 routing-table=ru-bypass
@@ -6105,11 +6108,6 @@ add dst-address=135.106.52.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=135.106.55.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=135.106.58.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=135.106.60.0/24 gateway=gre5 routing-table=ru-bypass
-add dst-address=135.106.96.0/24 gateway=gre5 routing-table=ru-bypass
-add dst-address=135.106.98.0/24 gateway=gre5 routing-table=ru-bypass
-add dst-address=135.106.105.0/24 gateway=gre5 routing-table=ru-bypass
-add dst-address=135.106.109.0/24 gateway=gre5 routing-table=ru-bypass
-add dst-address=135.106.110.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=135.106.128.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=135.106.132.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=135.106.136.0/21 gateway=gre5 routing-table=ru-bypass
@@ -6146,6 +6144,7 @@ add dst-address=138.124.14.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=138.124.69.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=138.124.76.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=138.124.254.0/23 gateway=gre5 routing-table=ru-bypass
+add dst-address=138.249.0.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=138.249.3.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=138.249.16.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=138.249.18.0/24 gateway=gre5 routing-table=ru-bypass
@@ -6437,6 +6436,7 @@ add dst-address=152.89.196.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=152.89.198.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=152.89.216.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=152.234.170.0/24 gateway=gre5 routing-table=ru-bypass
+add dst-address=152.234.239.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=153.43.77.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=153.43.78.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=153.43.152.0/21 gateway=gre5 routing-table=ru-bypass
@@ -6693,11 +6693,9 @@ add dst-address=170.168.105.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=170.168.112.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=170.168.115.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=170.168.116.0/24 gateway=gre5 routing-table=ru-bypass
-add dst-address=170.168.119.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=170.168.128.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=170.168.132.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=170.168.141.0/24 gateway=gre5 routing-table=ru-bypass
-add dst-address=170.168.150.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=170.168.158.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=170.168.176.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=170.168.195.0/24 gateway=gre5 routing-table=ru-bypass
@@ -8783,6 +8781,8 @@ add dst-address=185.243.84.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=185.243.220.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=185.244.4.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=185.244.20.0/22 gateway=gre5 routing-table=ru-bypass
+add dst-address=185.244.41.0/24 gateway=gre5 routing-table=ru-bypass
+add dst-address=185.244.42.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=185.244.44.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=185.244.51.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=185.244.76.0/22 gateway=gre5 routing-table=ru-bypass
@@ -8877,6 +8877,8 @@ add dst-address=187.13.71.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=187.52.194.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=187.52.198.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=187.52.204.0/24 gateway=gre5 routing-table=ru-bypass
+add dst-address=187.78.209.0/24 gateway=gre5 routing-table=ru-bypass
+add dst-address=187.78.210.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=187.126.38.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=187.126.44.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=187.126.46.0/24 gateway=gre5 routing-table=ru-bypass
@@ -9093,6 +9095,7 @@ add dst-address=191.44.37.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=191.44.38.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=191.44.44.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=191.101.148.0/24 gateway=gre5 routing-table=ru-bypass
+add dst-address=191.217.235.8/29 gateway=gre5 routing-table=ru-bypass
 add dst-address=191.223.140.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=192.23.188.4/32 gateway=gre5 routing-table=ru-bypass
 add dst-address=192.54.76.0/23 gateway=gre5 routing-table=ru-bypass
@@ -11591,6 +11594,7 @@ add dst-address=217.29.48.0/20 gateway=gre5 routing-table=ru-bypass
 add dst-address=217.29.80.0/20 gateway=gre5 routing-table=ru-bypass
 add dst-address=217.29.176.0/20 gateway=gre5 routing-table=ru-bypass
 add dst-address=217.30.240.0/20 gateway=gre5 routing-table=ru-bypass
+add dst-address=217.60.236.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=217.64.128.0/20 gateway=gre5 routing-table=ru-bypass
 add dst-address=217.64.144.0/22 gateway=gre5 routing-table=ru-bypass
 add dst-address=217.64.152.0/22 gateway=gre5 routing-table=ru-bypass
