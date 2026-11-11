@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-10T18:01:09Z",
-  "total_prefixes": 11722,
+  "generated_at": "2026-11-11T00:01:11Z",
+  "total_prefixes": 11723,
   "sources_used": {
     "p3terx": 13304,
-    "ripe": 11495,
+    "ripe": 11496,
     "pvd-dog": 1029
   },
   "min_prefixes_threshold": 5000
