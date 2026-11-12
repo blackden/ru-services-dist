@@ -1,6 +1,6 @@
 # RU-services CIDR list
-# generated_at=2026-11-11T18:01:12Z
-# total=11723
+# generated_at=2026-11-12T00:01:12Z
+# total=11725
 # do NOT edit manually — overwritten on next scheduler run
 
 /ip firewall address-list
@@ -6525,6 +6525,7 @@ add list=RU-SERVICES address=157.22.254.0/24 comment="ru-services-lists auto-upd
 add list=RU-SERVICES address=157.186.0.0/16 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=157.228.73.0/24 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=157.228.76.0/22 comment="ru-services-lists auto-update"
+add list=RU-SERVICES address=157.228.80.0/22 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=157.228.96.0/23 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=157.228.98.0/24 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=157.228.136.0/22 comment="ru-services-lists auto-update"
@@ -11450,6 +11451,7 @@ add list=RU-SERVICES address=213.167.192.0/19 comment="ru-services-lists auto-up
 add list=RU-SERVICES address=213.168.32.0/19 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=213.168.128.0/19 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=213.170.64.0/18 comment="ru-services-lists auto-update"
+add list=RU-SERVICES address=213.170.192.0/22 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=213.170.220.0/22 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=213.171.0.0/18 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=213.172.0.0/19 comment="ru-services-lists auto-update"
