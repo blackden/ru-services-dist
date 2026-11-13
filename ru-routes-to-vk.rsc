@@ -1,6 +1,6 @@
 # RU-services routes for ru-bypass table → gre5
-# generated_at=2026-11-12T18:01:12Z
-# total=11725
+# generated_at=2026-11-13T00:01:14Z
+# total=11724
 # do NOT edit manually — overwritten on next scheduler run
 
 /ip route
@@ -5066,8 +5066,7 @@ add dst-address=94.158.220.0/23 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.158.222.0/24 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.159.0.0/17 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.180.0.0/15 gateway=gre5 routing-table=ru-bypass
-add dst-address=94.187.192.0/21 gateway=gre5 routing-table=ru-bypass
-add dst-address=94.187.200.0/22 gateway=gre5 routing-table=ru-bypass
+add dst-address=94.187.192.0/20 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.188.0.0/17 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.190.0.0/17 gateway=gre5 routing-table=ru-bypass
 add dst-address=94.198.0.0/21 gateway=gre5 routing-table=ru-bypass
