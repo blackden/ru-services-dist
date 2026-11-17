@@ -1,6 +1,6 @@
 # RU-services CIDR list
-# generated_at=2026-11-16T18:01:17Z
-# total=11799
+# generated_at=2026-11-17T00:01:17Z
+# total=11802
 # do NOT edit manually — overwritten on next scheduler run
 
 /ip firewall address-list
@@ -6005,6 +6005,7 @@ add list=RU-SERVICES address=109.248.255.0/24 comment="ru-services-lists auto-up
 add list=RU-SERVICES address=109.252.0.0/16 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=109.254.0.0/16 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=111.88.78.0/24 comment="ru-services-lists auto-update"
+add list=RU-SERVICES address=111.88.80.0/21 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=111.88.96.0/19 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=111.88.128.0/21 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=111.88.144.0/20 comment="ru-services-lists auto-update"
@@ -8187,6 +8188,7 @@ add list=RU-SERVICES address=185.117.144.0/22 comment="ru-services-lists auto-up
 add list=RU-SERVICES address=185.117.152.0/21 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=185.117.232.0/22 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=185.117.244.0/22 comment="ru-services-lists auto-update"
+add list=RU-SERVICES address=185.118.62.0/24 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=185.118.64.0/22 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=185.118.126.0/24 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=185.118.164.0/22 comment="ru-services-lists auto-update"
@@ -10451,6 +10453,7 @@ add list=RU-SERVICES address=194.165.30.0/23 comment="ru-services-lists auto-upd
 add list=RU-SERVICES address=194.165.50.0/24 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=194.165.57.0/24 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=194.165.61.0/24 comment="ru-services-lists auto-update"
+add list=RU-SERVICES address=194.169.50.0/24 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=194.169.56.0/22 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=194.169.84.0/23 comment="ru-services-lists auto-update"
 add list=RU-SERVICES address=194.169.160.0/24 comment="ru-services-lists auto-update"
