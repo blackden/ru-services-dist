@@ -1,5 +1,5 @@
 # RU-services CIDR list
-# generated_at=2026-11-23T00:01:21Z
+# generated_at=2026-11-23T06:01:22Z
 # total=11861
 # do NOT edit manually — overwritten on next scheduler run
 
